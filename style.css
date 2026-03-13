@@ -1,0 +1,390 @@
+body {
+    background-color: darkseagreen;
+    background-image: url(/assets/pixel-jungle.gif);
+    font-size: small;
+    color: white;
+}
+
+/* text styles */
+
+.mini-title {
+    font-size: .5em;
+    margin: 1px;
+    text-transform: uppercase;
+}
+
+#hp {
+    font-size: 1.6em;
+    padding: 0px;
+}
+
+.init-ac{
+    font-size:1.2em;
+}
+
+table {
+    width:100%;
+}
+
+/* NAV SECTION */
+    
+#nav-links {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-image: url(/assets/whitelist.jpg);
+    background-size: contain;
+    background-repeat: repeat-x;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    display: flex;
+    list-style: none;
+    font-size: 1em;
+    font-weight: bold;
+    color: orangered;
+    flex-flow: row;
+    align-content: center;
+    justify-content: space-around;
+}
+
+#page-wrapper {
+    padding-top:100px;
+}
+
+#nav-wrapper {
+    margin-right: 2%;
+    margin-left: 2%;
+    background-color: hsla(156, 28%, 47%, .5);
+    border-radius: 60% 60% 60% 60% ;
+}
+
+#nav-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+#title {
+    font-size: .75em;
+    width: 40%;
+    background-image: url(/assets/skull-butterfly.jpg);
+    background-size: contain;
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+
+#title > h1 {
+    margin-top:20%;
+    padding-top:5%;
+    padding-bottom:5%;
+    padding-left:5%;
+    
+}
+
+#bubbles {
+    width: 60%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 2%;
+    border-radius: 50%;
+}
+
+.bubble-item {
+    background-color: hsla(235, 0%, 100%, 0.29);
+    border-radius: 50%;
+    border: 3px solid goldenrod;
+    outline: 2px solid darkorange;
+
+    text-align: center;
+    display:flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+box-shadow: 0  7px 5px hsla(298, 56%, 17%, 0.63), 0px 0px 10px 10px hsla(235, 61%, 17%, 0.58) inset; }
+
+#initiative-bubble {
+    width: 80px;
+    height: 80px;
+    background-image: url(/assets/bflywing-1.jpg);
+    background-size: contain;
+    background-blend-mode: multiply;
+}
+
+#hp-bubble-container {
+    background-image: url(/assets/bflywing-2.jpg);
+    background-size: contain;
+    background-blend-mode: multiply;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    height: 140px;
+    border-radius:50%;
+}
+
+#temp-hp{
+
+    border: 2px dotted mediumvioletred;
+    border-radius: 10px;
+    width: 45px;
+    height: 45px;
+}
+
+#ac-bubble {
+    background-image: url(/assets/bflywing-3.jpg);
+    background-size: contain;
+    background-blend-mode: multiply;
+    width:80px;
+    height:80px;
+}
+
+#death-save-bar {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 3%;
+    margin-right: 10%;
+    margin-left: 10%;
+    background-color: hsla(282, 60%, 67%, 0.58);
+    border-radius: 60px 60px 60px 60px;
+    border-left: 20px solid goldenrod;
+    border-right: 20px solid goldenrod;
+    outline: 2px solid darkorange;
+    box-shadow: 0  7px 5px hsla(298, 56%, 17%, 0.63), 0px 0px 3px 3px hsla(235, 61%, 17%, 0.58) inset; }
+
+.death-save {
+    display:flex;
+    flex-flow: column;
+    align-items:center;
+}
+
+#hit-dice-wrapper {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 3%;
+    margin-right: 10%;
+    margin-left: 10%;
+    background-color: hsla(235, 0%, 100%, 0.29);
+    border-radius: 60px 60px 60px 60px;
+    border-left: 20px solid goldenrod;
+    border-right: 20px solid goldenrod;
+    outline: 2px solid darkorange;
+    box-shadow: 0  7px 5px hsla(298, 56%, 17%, 0.63), 0px 0px 6px 3px hsla(235, 61%, 17%, 0.58) inset; }
+
+#hit-dice{
+    text-align:center;
+}
+
+#hit-dice-counter{
+    display:flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.hit-die {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+
+
+/* SUBNAV - everything below the nav bar */
+
+#subnav {
+    margin-top: 2%;
+    margin-right: 2%;
+    margin-left: 2%;
+    display: flex;
+    flex-direction:row;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+/* sidebar - everything in sidebar */
+
+#sidebar{
+    flex-basis:40%;
+    margin-right: 2%;
+    display:flex;
+    flex-direction:column;
+}
+
+.sidebar-item {
+    background-color: hsla(156, 28%, 47%, .5);
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+/* basics section */
+
+#basics-1 {
+    
+}
+
+.basics-item {
+    margin: 3%;
+    font-size: small;
+}
+
+#basics-list {
+    padding-top:2em;
+}
+
+#pfp {
+    float: left;
+    width: 140px;
+    height: 140px;
+    padding: 3px;
+    border-radius: 50%;
+    margin-right: 8%;
+    background-image: url(/assets/trippy-bg.gif);
+    background-size: cover;
+    
+}
+
+#conditions-2 {
+
+    
+}
+
+#conditions-list {
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.condition {
+    display:flex;
+    flex-direction:column;
+    align-content: space-between;
+}
+
+#exhaustion-list {
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.exhaustion {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+
+
+#defenses-proficiencies-3 {
+    
+}
+
+#skills {
+    
+}
+/* MAIN - everything in body not in sidebar 5 to 7 */
+
+#main {
+    display:flex;
+    flex-direction:column;
+    max-width:60%;
+}
+
+.main-item {
+    background-color: hsla(156, 28%, 47%, .5);
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#ability{
+  
+}
+
+#ability-grid-wrapper{
+    padding: 10px;
+}
+
+#ability-grid {
+ display: grid;
+ grid-template-columns: auto auto auto;
+ text-align: center;
+ row-gap: 10px;
+ column-gap: 10px;
+}
+
+.ability {
+    border: 1px solid deeppink;
+}
+
+#actions {
+    
+}
+
+#spell-stats{
+    display:flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.spell-stat {
+    border: 1px dashed deeppink;
+}
+
+
+
+/* foot */
+
+#foot {
+    width: 96%;
+    margin: 2% 2% 2% 2%;
+    text-align: center;
+    background-color: hsla(156, 28%, 47%, .5);
+}
+
+#top-8 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.pfp {
+        width: 100px;
+    height: 100px;
+
+    border-radius: 50%;
+  
+    background-image: url(/assets/trippy-bg.gif);
+    background-size: cover;
+}
+
+#inventory{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+    
+}
+
+.inventory-box {
+    flex-basis: 46%;
+    text-align: center;
+    border: 1px dashed white;
+    margin-bottom: 2%;
+}
+
+/* Appendix */
+.app-section {
+    border: 1px solid lightblue;
+}
