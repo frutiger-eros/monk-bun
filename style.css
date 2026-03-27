@@ -6,6 +6,8 @@ body {
     color: white;
 }
 
+/* text styles*/
+
 .mini-title {
     font-size: .5em;
     margin: 1px;
@@ -21,6 +23,28 @@ body {
     font-size:1.2em;
 }
 
+.ability > span {
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.ability-save-no-prof {
+    color: yellow;
+}
+
+.ability-score {
+     }
+
+.ability-mod {
+    font-size: 1.5em;
+    font-weight: bold;
+
+}
+
+.ability-save-prof {
+    color: yellow;
+    font-weight: bold;
+}
 /* tables */
 
 table {
@@ -304,7 +328,7 @@ width: 100%;
     padding: 10px;
 }
 
-#ability{
+#abilities{
   
 }
 
@@ -322,6 +346,10 @@ width: 100%;
 
 .ability {
     border: 1px solid deeppink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
 }
 
 #actions {
