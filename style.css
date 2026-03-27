@@ -1,6 +1,6 @@
 body {
     background-color: darkseagreen;
-    background-image: url(/Assets/pixel-jungle.gif);
+    background-image: url(Assets/pixel-jungle.gif);
     font-size: small;
     color: white;
 }
@@ -32,7 +32,7 @@ table {
     position: fixed;
     top: 0;
     width: 100%;
-    background-image: url(/Assets/whitelist.jpg);
+    background-image: url(Assets/whitelist.jpg);
     background-size: contain;
     background-repeat: repeat-x;
     margin-left: 0%;
@@ -68,7 +68,7 @@ table {
 #title {
     font-size: .75em;
     width: 40%;
-    background-image: url(/Assets/skull-butterfly.jpg);
+    background-image: url(Assets/skull-butterfly.jpg);
     background-size: contain;
     background-position: top right;
     background-repeat: no-repeat;
@@ -107,13 +107,13 @@ box-shadow: 0  7px 5px hsla(298, 56%, 17%, 0.63), 0px 0px 10px 10px hsla(235, 61
 #initiative-bubble {
     width: 80px;
     height: 80px;
-    background-image: url(/Assets/bflywing-1.jpg);
+    background-image: url(Assets/bflywing-1.jpg);
     background-size: contain;
     background-blend-mode: multiply;
 }
 
 #hp-bubble-container {
-    background-image: url(/Assets/bflywing-2.jpg);
+    background-image: url(Assets/bflywing-2.jpg);
     background-size: contain;
     background-blend-mode: multiply;
     display: flex;
@@ -134,7 +134,7 @@ box-shadow: 0  7px 5px hsla(298, 56%, 17%, 0.63), 0px 0px 10px 10px hsla(235, 61
 }
 
 #ac-bubble {
-    background-image: url(/Assets/bflywing-3.jpg);
+    background-image: url(Assets/bflywing-3.jpg);
     background-size: contain;
     background-blend-mode: multiply;
     width:80px;
@@ -246,7 +246,7 @@ box-shadow: 0  7px 5px hsla(298, 56%, 17%, 0.63), 0px 0px 10px 10px hsla(235, 61
     padding: 3px;
     border-radius: 50%;
     margin-right: 8%;
-    background-image: url(/Assets/trippy-bg.gif);
+    background-image: url(Assets/trippy-bg.gif);
     background-size: cover;
     
 }
@@ -364,7 +364,7 @@ box-shadow: 0  7px 5px hsla(298, 56%, 17%, 0.63), 0px 0px 10px 10px hsla(235, 61
 
     border-radius: 50%;
   
-    background-image: url(/Assets/trippy-bg.gif);
+    background-image: url(Assets/trippy-bg.gif);
     background-size: cover;
 }
 
