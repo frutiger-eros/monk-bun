@@ -1,11 +1,10 @@
+/* Universal Styles */
 body {
     background-color: darkseagreen;
     background-image: url(Assets/pixel-jungle.gif);
     font-size: small;
     color: white;
 }
-
-/* text styles */
 
 .mini-title {
     font-size: .5em;
@@ -22,8 +21,14 @@ body {
     font-size:1.2em;
 }
 
+/* tables */
+
 table {
     width:100%;
+}
+
+th {
+    display:none;
 }
 
 /* NAV SECTION */
@@ -149,8 +154,6 @@ box-shadow: 0  7px 5px hsla(298, 56%, 17%, 0.63), 0px 0px 10px 10px hsla(235, 61
     padding-top: 2%;
     padding-bottom: 2%;
     margin-top: 3%;
-    margin-right: 10%;
-    margin-left: 10%;
     background-color: hsla(282, 60%, 67%, 0.58);
     border-radius: 60px 60px 60px 60px;
     border-left: 20px solid goldenrod;
@@ -168,8 +171,7 @@ box-shadow: 0  7px 5px hsla(298, 56%, 17%, 0.63), 0px 0px 10px 10px hsla(235, 61
     padding-top: 2%;
     padding-bottom: 2%;
     margin-top: 3%;
-    margin-right: 10%;
-    margin-left: 10%;
+    margin-bottom: 3%;
     background-color: hsla(235, 0%, 100%, 0.29);
     border-radius: 60px 60px 60px 60px;
     border-left: 20px solid goldenrod;
@@ -194,16 +196,12 @@ box-shadow: 0  7px 5px hsla(298, 56%, 17%, 0.63), 0px 0px 10px 10px hsla(235, 61
     align-items: center;
 }
 
-
-
-/* SUBNAV - everything below the nav bar */
-
 #subnav {
     margin-top: 2%;
     margin-right: 2%;
     margin-left: 2%;
     display: flex;
-    flex-direction:row;
+    flex-direction:column;
     align-items: stretch;
     flex-wrap: nowrap;
     justify-content: space-around;
@@ -212,8 +210,8 @@ box-shadow: 0  7px 5px hsla(298, 56%, 17%, 0.63), 0px 0px 10px 10px hsla(235, 61
 /* sidebar - everything in sidebar */
 
 #sidebar{
-    flex-basis:40%;
-    margin-right: 2%;
+width: 100%;
+    
     display:flex;
     flex-direction:column;
 }
@@ -298,7 +296,6 @@ box-shadow: 0  7px 5px hsla(298, 56%, 17%, 0.63), 0px 0px 10px 10px hsla(235, 61
 #main {
     display:flex;
     flex-direction:column;
-    max-width:60%;
 }
 
 .main-item {
@@ -352,16 +349,21 @@ box-shadow: 0  7px 5px hsla(298, 56%, 17%, 0.63), 0px 0px 10px 10px hsla(235, 61
     background-color: hsla(156, 28%, 47%, .5);
 }
 
+.foot-item {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
 #top-8 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 10px;
+    place-items: center;
+    border: 2px solid white;
 }
 
-.pfp {
-        width: 100px;
+.friend-pfp {
+    width: 100px;
     height: 100px;
-
     border-radius: 50%;
   
     background-image: url(Assets/trippy-bg.gif);
@@ -370,11 +372,8 @@ box-shadow: 0  7px 5px hsla(298, 56%, 17%, 0.63), 0px 0px 10px 10px hsla(235, 61
 
 #inventory{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: stretch;
-    
+    flex-direction: column;
+    flex-wrap: wrap;    
 }
 
 .inventory-box {
@@ -388,3 +387,71 @@ box-shadow: 0  7px 5px hsla(298, 56%, 17%, 0.63), 0px 0px 10px 10px hsla(235, 61
 .app-section {
     border: 1px solid lightblue;
 }
+  
+
+/* Medium devices (phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    
+
+#death-save-bar {
+    margin-right: 10%;
+    margin-left: 10%;
+    }
+
+
+#hit-dice-wrapper {
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+/* SUBNAV - everything below the nav bar */
+
+#subnav {
+    flex-direction:row;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+/* sidebar - everything in sidebar */
+
+#sidebar{
+    flex-basis:40%;
+    margin-right: 2%;
+    display:flex;
+    flex-direction:column;
+}
+
+/* basics section */
+
+/* MAIN - everything in body not in sidebar 5 to 7 */
+
+#main {
+    display:flex;
+    flex-direction:column;
+    max-width:60%;
+}
+
+
+
+
+/* foot */
+
+
+#inventory{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+    
+}
+
+/* Appendix */
+    
+    
+}
+
+
+
+
