@@ -1,2 +1,1 @@
-Read me!
-Update to readme!
+Copying Holiday's character sheet to use it for my new character!
