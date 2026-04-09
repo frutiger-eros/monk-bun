@@ -1,6 +1,6 @@
 /* Universal Styles */
 body {
-    background-color: black;
+    background-color: darkred;
     font-size: small;
     color: white;
 }
@@ -83,7 +83,7 @@ th {
 #nav-wrapper {
     margin-right: 2%;
     margin-left: 2%;
-    background-color: midnightblue;
+    background-color: black;
     
 }
 
@@ -132,13 +132,13 @@ th {
 #initiative-bubble {
     width: 80px;
     height: 80px;
-    background-image: url(Assets/bflywing-1.jpg);
+    background-color: black;
     background-size: contain;
     background-blend-mode: multiply;
 }
 
 #hp-bubble-container {
-    background-image: url(Assets/bflywing-2.jpg);
+    background-color:black;
     background-size: contain;
     background-blend-mode: multiply;
     display: flex;
@@ -159,7 +159,7 @@ th {
 }
 
 #ac-bubble {
-    background-image: url(Assets/bflywing-3.jpg);
+    background-color:black;
     background-size: contain;
     background-blend-mode: multiply;
     width:80px;
@@ -227,7 +227,7 @@ width: 100%;
 }
 
 .sidebar-item {
-    background-color: darkslateblue;
+    background-color: black;
     margin-bottom: 10px;
     padding: 10px;
 }
@@ -309,7 +309,7 @@ width: 100%;
 }
 
 .main-item {
-    background-color: darkslateblue;
+    background-color: black;
     margin-bottom: 10px;
     padding: 10px;
 }
@@ -360,7 +360,7 @@ width: 100%;
     width: 96%;
     margin: 2% 2% 2% 2%;
     text-align: center;
-    background-color: darkslateblue;
+    background-color: black;
 }
 
 .foot-item {

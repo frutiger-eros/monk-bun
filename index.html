@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
-  <title>Harengon Monk</title>
+  <title>Fenix</title>
   
   <!-- HTML -->
   
@@ -65,9 +65,9 @@
         
         <img src="Assets/deathsave-butterfly.gif" width="90px" />
         
-        <div class="death-save"><input type="checkbox">💚</div>
-        <div class="death-save"><input type="checkbox">💚</div>
-        <div class="death-save"><input type="checkbox">💚</div>
+        <div class="death-save"><input type="checkbox">🔥</div>
+        <div class="death-save"><input type="checkbox">🔥</div>
+        <div class="death-save"><input type="checkbox">🔥</div>
       </div>
       <div id="hit-dice-wrapper">
         <div id="hit-dice">1d8</div>
@@ -83,14 +83,15 @@
       <!--sidebar-->
       <div id="sidebar">
         <div id="basics" class="sidebar-item">
-          <h2 id="name">Holiday Mariwether</h2>
-          <img id="pfp" src="Assets/holiday-transbg.png" class="basics-item" />
+          <h2 id="name">Fenix</h2>
+          <img id="pfp" src="Assets/fenix-pfp.png" class="basics-item" />
           
           <ul id="basics-list" class="basics-item">
             <li>Harengon</li>
             <li>Monk</li>
             <li>Neutral Good</li>
             <li>Gladiator</li>
+            <li>Martial Arts Die: d4</li>
           </ul>
           <p style="clear:both;" class="basics-item"><strong>Mood:</strong> Filled with determination</p>
         </div>
@@ -398,7 +399,32 @@
             </table>
           </div><!-- end attacks-->
           <h3>Actions in Combat</h3>
+          <h4>Standard Actions</h4>
           <p>Attack, Magic, Dash, Disengage, Dodge, Help, Hide, Ready, Search, Utilize, Opportunity Attack, Grapple, Shove, Improvise, Two-Weapon Fighting, Interact with an Object, Study, Influence</p>
+          
+          <h4>Unarmed Strike</h4>
+            <p>You make a melee attack that involves using your body to deal one of the following effects:</p>
+              <ul>
+                <li><strong><em>Damage.</em></strong> You make an attack roll against the creature, and on a hit, you deal 1 + STR Bludgeoning damage.</li>
+                <li><strong><em>Grapple.</em></strong> The target must succeed on a Str./Dex. (it chooses which) saving throw (DC = 8 + Prof. Bonus + Str. [11]) or it has the Grappled condition.</li>
+                <li><strong><em>Shove.</em></strong> The target must succeed on a Str./Dex. (it chooses which) saving throw (DC = 8 + Prof. Bonus + Str. [11]) or you can either push it 5 ft. away or cause it to have the Prone condition.</li>
+              </ul>
+          <h3>Bonus Actions</h3>
+          <h4>Bunny Hop</h4>
+          <p>2 / Long Rest<input type="checkbox" /><input type="checkbox" /></p>
+          <p>As a bonus action, you can jump 10 ft. without provoking opportunity attacks. You can only use this trait if your speed is greater than 0. You can use it 2 times and regain all expended uses when you finish a long rest.</p>
+          <h4>Unarmed Strike</h4>
+          <p>When you use the Attack action with an unarmed
+            strike or a monk weapon on your turn, you can make
+            one unarmed strike as a bonus action.</p>
+          <h3>Reactions</h3>
+          <h4>Lucky Footwork</h4>
+          <p>When you fail a DEX saving throw, you can use
+your reaction to roll a d4 and add it to the save,
+potentially turning the failure into a success. You can’t
+use this reaction if you’re prone or your speed is 0.</p>
+
+          
 <!-- End Actions in Combat -->          
           <!--<div id="magic" class="main-subsection">
             <h3>Magic</h3>
