@@ -44,7 +44,7 @@
           <div id="hp-bubble" class="bubble-item">
             <div id="hp-bubble-container" class="container"><!--fixed placement?-->
               <h2 class="mini-title">HP</h2>
-              <div id="hp"><span id="current">10</span><span id="slash">/</span><span id="max">10</span></div>
+              <div id="hp"><span id="current">17</span><span id="slash">/</span><span id="max">17</span></div>
               <span id="temp-hp">0</span>
               <h2 class="mini-title">temp hp</h2>
               
@@ -70,8 +70,9 @@
         <div class="death-save"><input type="checkbox">🔥</div>
       </div>
       <div id="hit-dice-wrapper">
-        <div id="hit-dice">1d8</div>
+        <div id="hit-dice">2d8</div>
         <div id="hit-dice-counter">
+          <div class="hit-die"><input type="checkbox"><img src="Assets/green-butterfly-blinky.gif" /></div>
           <div class="hit-die"><input type="checkbox"><img src="Assets/green-butterfly-blinky.gif" /></div>
         </div>
       </div>
@@ -186,7 +187,11 @@
             <li>shortsword, simple weapons</li>
             <li>cooks tools, disguise kit, wargong</li>
             <li>Common, Common Sign Language</li>
-            <li>Walking 30 ft</li>
+            <li>Walking 40 ft</li>
+            <li>Long Jump 12 ft</li>
+            <li>Standing long jump 6 ft</li>
+            <li>High Jump 4 ft</li>
+            <li>Standing high jump 2</li>
           </ul>
           <h2>Senses</h2>
           <ul>
@@ -366,6 +371,9 @@
           
         </div><!-- end abilities-->
         <div id="actions-6" class="main-item"><!--Actions section-->
+        <h2>Ki Points</h2>
+        <p>Martial Arts die: d4</p>
+<input type="checkbox" /><input type="checkbox" />        
           <h2>Actions</h2>
           
           <div id="attacks" class="main-subsection">
@@ -396,6 +404,12 @@
                 <td>+5</td>
                 <td>1d4 + 3 bludgeoning</td>
               </tr>
+              <tr>
+                <td>Flury of Blows</td>
+                <td>5 ft reach</td>
+                <td>+5</td>
+                <td>1d4 + 3 bludgeoning</td>
+              </tr>
             </table>
           </div><!-- end attacks-->
           <h3>Actions in Combat</h3>
@@ -413,6 +427,13 @@
           <h4>Bunny Hop</h4>
           <p>2 / Long Rest<input type="checkbox" /><input type="checkbox" /></p>
           <p>As a bonus action, you can jump 10 ft. without provoking opportunity attacks. You can only use this trait if your speed is greater than 0. You can use it 2 times and regain all expended uses when you finish a long rest.</p>
+          <h4>Flury of Blows</h4>
+          <p>After you take the Attack action on your turn, you can spend 1 ki point to make two unarmed strikes as a bonus action.</p>
+          <h4>Patient Defense</h4>
+          <p>You can spend 1 ki point to take the Dodge action as a bonus action on your turn.</p>
+          <h4>Step of the Wind</h4>
+          <p>You can spend 1 ki point to take the Disengage or Dash action as a bonus action on your turn, and your jump distance is doubled for the turn.</p>
+          
           <h4>Unarmed Strike</h4>
           <p>When you use the Attack action with an unarmed
             strike or a monk weapon on your turn, you can make
